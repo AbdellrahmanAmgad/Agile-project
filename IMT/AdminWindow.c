@@ -3,32 +3,33 @@
 #include "AdminWindow.h"
 #include "BankAccount.h"
 #include "STD_Types.h"
+#include "LinkedList.h"
 
-void CreateNewAccount(){
+void CreateNewAccount(LinkedListEntry,LinkedList*){
     printf("\n\n  CreateNewAccount");
 }
 
-void MakeTransaction(){
+void MakeTransaction(LinkedList*,int,double){
     printf("\n\n  MakeTransaction");
 }
 
-void ChangeAccountStatus(){
+void ChangeAccountStatus(LinkedList*,char*,int){
     printf("\n\n  ChangeAccountStatus");
 }
 
-void GetCash(){
+void GetCash(LinkedList*,double,int){
     printf("\n\n  GetCash");
 }
-
-void DepositAccount(){
+void DepositAccount(LinkedList*,double,int){
     printf("\n\n  DepositAccount");
 }
-
 void MainMenu(){
     printf("\n\n  MainMenu");
 }
 
-void OpenExistingAccount(){
+
+
+void OpenExistingAccount(LinkedList*,int){
     system("cls");
     printf("\n ********************************************************************************************************************\n");
     printf("\n                                                        Welcome                                                      \n");
@@ -47,7 +48,7 @@ void OpenExistingAccount(){
         printf("\n ********************************************************************************************************************\n");
         printf("\n                                                   Make Transaction                                                  \n");
         printf("\n ********************************************************************************************************************\n\n");
-        MakeTransaction();
+        //MakeTransaction();
     }
     else if (x==2)
     {
@@ -55,7 +56,7 @@ void OpenExistingAccount(){
         printf("\n ********************************************************************************************************************\n");
         printf("\n                                                   Change Account Status                                              \n");
         printf("\n ********************************************************************************************************************\n\n");
-        ChangeAccountStatus();
+        //ChangeAccountStatus();
     }
     else if (x==3)
     {
@@ -63,7 +64,7 @@ void OpenExistingAccount(){
         printf("\n ********************************************************************************************************************\n");
         printf("\n                                                   Get Cash                                              \n");
         printf("\n ********************************************************************************************************************\n\n");
-        GetCash();
+        //GetCash();
     }
     else if (x==4)
     {
@@ -71,7 +72,7 @@ void OpenExistingAccount(){
         printf("\n ********************************************************************************************************************\n");
         printf("\n                                                   Deposit in Account                                              \n");
         printf("\n ********************************************************************************************************************\n\n");
-        DepositAccount();
+        //DepositAccount();
     }
     else if (x==5)
     {
@@ -79,7 +80,7 @@ void OpenExistingAccount(){
         printf("\n ********************************************************************************************************************\n");
         printf("\n                                                   Return to main menu                                              \n");
         printf("\n ********************************************************************************************************************\n\n");
-        MainMenu();
+        //MainMenu();
     }
 }
 

@@ -9,7 +9,7 @@ typedef struct Bank_Account
  char *Full_Address;
  char *National_ID;
  int Age;
- char *Bank_Account_ID;
+ int Bank_Account_ID;
  char Guardian;
  char *Guardian_National_ID;
  char *Account_Status;
