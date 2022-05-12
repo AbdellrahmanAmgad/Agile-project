@@ -31,6 +31,12 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="AdminWindow.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="AdminWindow.h" />
+		<Unit filename="BankAccount.h" />
+		<Unit filename="STD_Types.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

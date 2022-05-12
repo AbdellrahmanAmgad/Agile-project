@@ -20,3 +20,24 @@
 	"BankAccount.h"
 	"STD_Types.h"
 
+1652352078 source:d:\iti (ai track)\9-month scolorship\21- agile\project\imt\agile-project\imt\adminwindow.c
+	<stdlib.h>
+	<stdio.h>
+	"AdminWindow.h"
+	"BankAccount.h"
+	"STD_Types.h"
+
+1652344506 d:\iti (ai track)\9-month scolorship\21- agile\project\imt\agile-project\imt\adminwindow.h
+
+1652352682 d:\iti (ai track)\9-month scolorship\21- agile\project\imt\agile-project\imt\bankaccount.h
+	"STD_Types.h"
+
+1652345714 d:\iti (ai track)\9-month scolorship\21- agile\project\imt\agile-project\imt\std_types.h
+
+1652345735 source:d:\iti (ai track)\9-month scolorship\21- agile\project\imt\agile-project\imt\main.c
+	<stdio.h>
+	<stdlib.h>
+	"AdminWindow.h"
+	"BankAccount.h"
+	"STD_Types.h"
+
