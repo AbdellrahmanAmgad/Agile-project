@@ -3,7 +3,7 @@
 #include "BankAccount.h"
 #include "LinkedList.h"
 
-void CreateNewAccount(LinkedListEntry,LinkedList*);
+void CreateNewAccount(LinkedList*, LinkedListEntry);
 void OpenExistingAccount(LinkedList*,int);
 void MakeTransaction(LinkedList*,int,double);
 void ChangeAccountStatus(LinkedList*,char*,int);

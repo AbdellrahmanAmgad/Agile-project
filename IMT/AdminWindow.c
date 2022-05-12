@@ -5,22 +5,22 @@
 #include "STD_Types.h"
 #include "LinkedList.h"
 
-void CreateNewAccount(LinkedListEntry,LinkedList*){
+void CreateNewAccount(LinkedList* lls, LinkedListEntry data){
     printf("\n\n  CreateNewAccount");
 }
 
-void MakeTransaction(LinkedList*,int,double){
+void MakeTransaction(LinkedList* lls, int accound_id, double amount){
     printf("\n\n  MakeTransaction");
 }
 
-void ChangeAccountStatus(LinkedList*,char*,int){
+void ChangeAccountStatus(LinkedList* lls, char* status, int accound_id){
     printf("\n\n  ChangeAccountStatus");
 }
 
-void GetCash(LinkedList*,double,int){
+void GetCash(LinkedList* lls, double amount, int accound_id){
     printf("\n\n  GetCash");
 }
-void DepositAccount(LinkedList*,double,int){
+void DepositAccount(LinkedList* lls, double amount, int accound_id){
     printf("\n\n  DepositAccount");
 }
 void MainMenu(){
@@ -29,7 +29,7 @@ void MainMenu(){
 
 
 
-void OpenExistingAccount(LinkedList*,int){
+void OpenExistingAccount(LinkedList* lls, int accound_id){
     system("cls");
     printf("\n ********************************************************************************************************************\n");
     printf("\n                                                        Welcome                                                      \n");
