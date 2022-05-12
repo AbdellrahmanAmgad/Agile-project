@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1652352078 source:d:\iti (ai track)\9-month scolorship\21- agile\project\imt2\adminwindow.c
+	<stdlib.h>
+	<stdio.h>
+	"AdminWindow.h"
+	"BankAccount.h"
+	"STD_Types.h"
+
+1652344506 d:\iti (ai track)\9-month scolorship\21- agile\project\imt2\adminwindow.h
+
+1652352670 d:\iti (ai track)\9-month scolorship\21- agile\project\imt2\bankaccount.h
+	"STD_Types.h"
+
+1652345714 d:\iti (ai track)\9-month scolorship\21- agile\project\imt2\std_types.h
+
+1652345735 source:d:\iti (ai track)\9-month scolorship\21- agile\project\imt2\main.c
+	<stdio.h>
+	<stdlib.h>
+	"AdminWindow.h"
+	"BankAccount.h"
+	"STD_Types.h"
+
